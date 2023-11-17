@@ -1,0 +1,58 @@
+{
+  "name": "auto-typer-ts",
+  "version": "0.0.1",
+  "description": "The \"auto-typer-ts\" npm package is a versatile and easy-to-use tool designed to enhance your React applications developed with Vite, TypeScript, Next. This package allows you to effortlessly create typewriter-style text animations on your web pages, bringing a dynamic and engaging element to your user interfaces.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "autotyper",
+    "text autotyper",
+    "text type react auto",
+    "type",
+    "text",
+    "text auto typer",
+    "react auto typer",
+    "auto typer",
+    "auto typer ts",
+    "auto typer typescript",
+    "auto typer react",
+    "auto typer react typescript",
+    "auto typer react ts",
+    "text typer",
+    "text",
+    "typer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtemPchela/auto-typer-ts.git"
+  },
+  "author": "Artsiom Pchaliankou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArtemPchela/auto-typer-ts/issues"
+  },
+  "homepage": "https://github.com/ArtemPchela/auto-typer-tss#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.19.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.1",
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.2.14",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
