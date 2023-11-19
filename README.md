@@ -75,8 +75,8 @@ const App = () => {
   return (
     <div>
       <AutoTyper
-        titles={titles}           
-        styling="color: red; font-size: 20px;"
+        titles={titles}         
+        styling="your-className"
         typingSpeedMax={100}
         typingSpeedMin={50}
         deletingSpeed={50}
@@ -90,6 +90,42 @@ const App = () => {
 
 ## styling prop:
 
-able to use as a className / tailwind css style
+able to use as a css / tailwind css style
+
+### CSS Example:
 
 ```react
+import AutoTyper from 'auto-typer-ts';
+
+const titles = ['Javascript', 'React', 'TypeScript', 'Next', 'Angular'];
+
+const App = () => {
+  return (
+    <div>
+      <AutoTyper
+        titles={titles}         
+        styling="color: red; font-size: 20px;"
+      />
+    </div>
+  );
+};
+```
+
+### Tailwind CSS Example:
+
+```react
+import AutoTyper from 'auto-typer-ts';
+
+const titles = ['Javascript', 'React', 'TypeScript', 'Next', 'Angular'];
+
+const App = () => {
+  return (
+    <div>
+      <AutoTyper
+        titles={titles}         
+        styling="text-red-500 text-2xl"
+      />
+    </div>
+  );
+};
+```

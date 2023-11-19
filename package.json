@@ -1,6 +1,6 @@
 {
   "name": "auto-typer-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The \"auto-typer-ts\" npm package is a versatile and easy-to-use tool designed to enhance your React applications developed with Vite, TypeScript, Next. This package allows you to effortlessly create typewriter-style text animations on your web pages, bringing a dynamic and engaging element to your user interfaces.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
